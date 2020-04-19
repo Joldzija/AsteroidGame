@@ -81,7 +81,7 @@ class Ship(object):
         self.centerX = self.x+(self.width//2)
         self.centerY = self.y+(self.height//2)
         self.radius = 20
-        self.ammo = 2000
+        self.ammo = 3
 
 
     def draw(self, win):
